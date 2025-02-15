@@ -14,18 +14,25 @@ Due to **file size limitations**, the dataset is stored externally. You can **do
 
 ## **Running the Analysis**
 
-### **Option 1: Using the Provided Data**
-1. **Download the dataset from the Google Drive link above** and extract it to the same directory as the Python script or Jupyter Notebook.
+### **Option 1: Running in Google Colab (Recommended)**
+For convenience, the Jupyter Notebook can be executed directly in **Google Colab**, removing the need for local setup:
+1. Open **Google Colab**.
+2. Upload the dataset files from the **Google Drive link** above.
+3. Upload **`PBPK_data_analysis.ipynb`** to Colab.
+4. Run the notebook section by section.
+
+### **Option 2: Running Locally Using the Provided Data**
+1. **Download the dataset from Google Drive** and extract it to the same directory as the Python script or Jupyter Notebook.
 2. Open **`PBPK_data_analysis.ipynb`** in Jupyter Notebook or **`pbpk_data_analysis.py`** in a Python environment.
 3. Run the script to generate figures, dose-response plots, and statistical analyses.
 
-### **Option 2: Running Simulations in PK-Sim**
+### **Option 3: Running Simulations in PK-Sim**
 If you wish to **replicate or modify the PBPK model**, you must install **PK-Sim**:
 
 🔗 **[PK-Sim Installation Guide](https://github.com/Open-Systems-Pharmacology/Suite)**  
 🔗 **[PK-Sim GitHub Repository](https://github.com/Open-Systems-Pharmacology/PK-Sim)**  
 
-1. Download and install **PK-Sim** (Windows/Linux only).
+1. Download and install **PK-Sim** (**Windows/Linux only**).
 2. Open **`YCT-529_Simulations.pksim5`** in **PK-Sim**.
 3. Modify parameters, run new simulations, and export the output CSV files.
 
@@ -37,6 +44,7 @@ If you're new to **PK-Sim**, consider starting with the **OSP PBPK Model Library
 ## **System Requirements**
 - **Python 3.8+** (for analysis scripts)
 - **Jupyter Notebook** (for interactive analysis)
+- **Google Colab** (for cloud execution)
 - **PK-Sim** (for running or modifying the PBPK model)
 
 ## **License**
