@@ -1,4 +1,6 @@
 # **PBPK Model & Data Analysis for YCT-529 Pharmacokinetics**
+![PK-Sim](https://github.com/user-attachments/assets/7a64a49e-57ea-4509-92d9-19f232510cdf)
+
 
 ## **Overview**
 This repository contains the **PK-Sim project file (.pksim5)**, Python scripts, and Jupyter Notebook for **physiologically based pharmacokinetic (PBPK) modeling and analysis of YCT-529**, a non-hormonal male contraceptive. **PK-Sim** was used to simulate **16,000 pharmacokinetic profiles** across four demographic populations (Black Americans, East Asians, White Americans, and Europeans) and **four dosing regimens** (15 mg, 45 mg, 90 mg, 180 mg). Additionally, Atazanavir was simulated as a reference compound across 1,000 individuals.
